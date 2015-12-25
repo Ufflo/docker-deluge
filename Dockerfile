@@ -2,21 +2,25 @@ FROM ubuntu:trusty
 MAINTAINER Olof Nilsson <olof@drp.nu>
 
 # Workaround to get rid of ugly red text when building from Dockerfile
-ENV DEBIAN_FRONTEND="noninteractive"
+ENV DEBIAN_FRONTEND "noninteractive"
 
 # Install Deluge and WebGUI
 RUN apt-get install -qy software-properties-common && \
     add-apt-repository ppa:deluge-team/ppa && \
     apt-get update -q && \
-    apt-get install -qy deluged deluge-web
+    apt-get install -qy \
+        deluged \
+        deluge-web && \
+    apt-get clean
 
 # Inject Startup Script
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
-# Expose Volume for Config and Log files
+# Expose Volumes
 VOLUME ["/config"]
 VOLUME ["/log"]
+VOLUME ["/data"]
 
 # Expose Port - WebGUI
 EXPOSE 8112
