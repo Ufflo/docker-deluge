@@ -18,15 +18,29 @@ Volumes
 =======
 
 * **Config** 
+
   Configuration files, will be initiated upon first launch and will remain.
+
 * **Log** 
+
   Log files are directed here. Upon launch, the start script will rename any existing logs by appending datetime, to prevent old logs from being overwritten.
+
 * **Data** 
+
   Application not configured to use this volume by default. The intention is to use the volume for AutoAdd, Archive and Completed torrents.
 
 Ports
 =====
 
-* **8112 TCP** WebGUI
-* **58846 TCP** Daemon
-* **58847 TCP/UDP** Torrent traffic
+* **8112 TCP** 
+  
+  WebGUI
+
+* **58846 TCP** 
+
+  Daemon
+
+* **58847 TCP/UDP** 
+
+  Torrent traffic
+
