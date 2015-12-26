@@ -1,3 +1,8 @@
+
+[![Image Size and Layers](https://badge.imagelayers.io/ufflo/deluge:latest.svg)](https://imagelayers.io/?images=ufflo/deluge:latest 'Get your own badge on imagelayers.io')
+[![Docker Stars](https://img.shields.io/docker/stars/ufflo/deluge.svg)](hub])
+[![Docker Pulls](https://img.shields.io/docker/pulls/ufflo/deluge.svg)](hub])
+
 # Docker-Deluge
 
 Docker container for deluge daemon and webgui
