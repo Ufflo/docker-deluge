@@ -1,12 +1,8 @@
-
-=============
-Docker-Deluge
-=============
+# Docker-Deluge
 
 Docker container for deluge daemon and webgui
 
-Usage
-=====
+## Usage
 
 Startup Example:
 
@@ -14,8 +10,8 @@ Startup Example:
 docker run -d --name="deluge" -v /docker/deluge/config:/config -v /docker/deluge/log:/log -v /docker/deluge/data:/data -p 8112:8112 -p 58846:58846 -p 58847:58847 -p 58847:58847/udp ufflo/deluge
 ```
 
-Volumes
-=======
+
+## Volumes
 
 * **Config** 
 
@@ -29,8 +25,7 @@ Volumes
 
   Application not configured to use this volume by default. The intention is to use the volume for AutoAdd, Archive and Completed torrents.
 
-Ports
-=====
+## Ports
 
 * **8112 TCP** 
   
