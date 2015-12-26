@@ -1,9 +1,9 @@
-
-[![Image Size and Layers](https://badge.imagelayers.io/ufflo/deluge:latest.svg)](https://imagelayers.io/?images=ufflo/deluge:latest 'Get your own badge on imagelayers.io')
-[![Docker Stars](https://img.shields.io/docker/stars/ufflo/deluge.svg)](hub])
-[![Docker Pulls](https://img.shields.io/docker/pulls/ufflo/deluge.svg)](hub])
-
 # Docker-Deluge
+
+[![Image Layers](https://img.shields.io/imagelayers/layers/ufflo/deluge/latest.svg?style=plastic)](https://imagelayers.io/?images=ufflo/deluge:latest)
+[![Image Size](https://img.shields.io/imagelayers/image-size/ufflo/deluge/latest.svg?style=plastic)](https://imagelayers.io/?images=ufflo/deluge:latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ufflo/deluge.svg?style=plastic)]()
+[![Docker Stars](https://img.shields.io/docker/stars/ufflo/deluge.svg?style=plastic)]()
 
 Docker container for deluge daemon and webgui
 
