@@ -1,0 +1,12 @@
+deluge:
+  build: .
+  ports: 
+    - "8112:8112"
+    - "58846:58846"
+    - "58847:58847"
+    - "58847:58847/udp"
+  volumes:
+    - /docker/deluge/config:/config
+    - /docker/deluge/log:/log
+    - /docker/deluge/data:/data
+
