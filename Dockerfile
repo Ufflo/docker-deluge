@@ -11,7 +11,7 @@ RUN apt-get install -qy software-properties-common && \
     apt-get install -qy \
         deluged \
         deluge-web && \
-    apt-get clean
+    rm -rf /var/lib/apt/lists/* 
 
 # Inject Startup Script
 ADD start.sh /start.sh
