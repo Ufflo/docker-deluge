@@ -9,4 +9,4 @@ deluge:
     - /docker/deluge/config:/config
     - /docker/deluge/log:/log
     - /docker/deluge/data:/data
-
+  restart: always
