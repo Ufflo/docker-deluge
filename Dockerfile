@@ -18,9 +18,9 @@ ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
 # Expose Volumes
-VOLUME ["/config"]
-VOLUME ["/log"]
-VOLUME ["/data"]
+VOLUME ["/config", \
+	"/log", \
+	"/data"]
 
 # Expose Port - WebGUI
 EXPOSE 8112
