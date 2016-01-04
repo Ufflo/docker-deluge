@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Rename any previous log files to prevent them fr ombeing overwritten upon start
+# Rename any previous log files to prevent them from being overwritten upon start
 LogFiles=("/log/deluged.log" "/log/deluge-web.log")
 for LogFile in "${LogFiles[@]}"
 do
